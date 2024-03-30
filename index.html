@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/normalaize.css">
+    <title>API</title>
+</head>
+<body>
+     <div class="header">
+        <div class="container header__container">
+            <div class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <h1 id="title" class="nav__title">Nomoz vaqtlari</h1>
+                    </li>
+                    <li class="nav__item">
+                        <form class="navForm" id="navForm">
+                        <input id="navinput" type="text" class="nav__input" placeholder="shaharni kiriting">
+                        <button id="navbtn" class="nav__btn" type="submit" >Ko'rish</button>
+                    </form>
+                    <p class="error__text"></p>
+                    </li>
+                    <li class="nav__item1" id="navitem">
+                        
+                    </li>
+                </ul>
+            </div>
+            <button class="btn" onclick="changeLanguage('uzb')">uzb</button>
+            <button class="btn" onclick="changeLanguage('rus')">rus</button>
+            <button class="btn" onclick="changeLanguage('eng')">eng</button> 
+
+            
+            <ul class="header__list" id="header__list">
+                <li class="header__item">
+                      <h2 id="tongh" class="header__title">Tong</h2>
+                      <p  class="header__text" id="tong"></p>
+                </li>
+                <li class="header__item">
+                    <h2 id="quyoshh" class="header__title">Quyosh</h2>
+                    <p class="header__text" id="quyosh"></p>
+                </li>
+                <li class="header__item">
+                    <h2 id="peshinh" class="header__title">Peshin</h2>
+                    <p class="header__text" id="peshin"></p>
+                </li>
+                <li class="header__item">
+                    <h2 id="asrh" class="header__title">Asr</h2>
+                    <p class="header__text" id="asr"></p>
+                </li>
+                <li class="header__item">
+                    <h2 id="shomh" class="header__title">Shom</h2>
+                    <p class="header__text" id="shom"></p>
+                </li>
+                <li class="header__item">
+                    <h2 id="huftonh" class="header__title">Hufton</h2>
+                    <p class="header__text" id="hufton"></p>
+                </li>
+            </ul>
+     
+	<!-- <select onclick="changeLanguage('eng')">
+	</select>
+	<select onclick="changeLanguage('es')">
+	
+    </select>
+	<select onclick="changeLanguage('hin')">
+		
+    </select> -->
+
+</div>
+</div>
+	<script src="./js/main.js">
+		
+	</script>
+ 
+</body>
+</html>
